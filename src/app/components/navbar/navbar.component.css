@@ -1,0 +1,57 @@
+/* Style the navbar */
+.navbar {
+    padding: 13px;
+    background-color: #ffeae6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+ }
+
+/* Navbar Brand (Sakhi) */
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-right: 20px; 
+}
+
+/* Navbar Items */
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 0.9rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+    position: relative;
+}
+
+/* Hover effect for nav items */
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #ff6f61;
+}
+
+/* Adjust the icon size and spacing */
+.navbar .navbar-nav .nav-item i {
+    margin-right: 4px; 
+    font-size: 0.7rem; 
+
+}
+
+/* Navbar items on the right */
+.navbar-nav.ms-auto {
+    margin-left: auto;
+}
+
+/* Navbar Toggler for small screens */
+.navbar-toggler {
+    border-color: #ff6f61;
+}
+
+/* Make the navbar responsive */
+@media (max-width: 768px) {
+    .navbar .navbar-brand {
+        font-size: 1.5rem; 
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 1rem; 
+    }
+}

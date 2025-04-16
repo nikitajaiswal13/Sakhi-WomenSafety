@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+    body {
+    background-color: #fff6f4;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;               /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;       /* Track background */
+}
+
+::-webkit-scrollbar-thumb {
+  background: orange;
+  border-radius: 4px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: darkorange;    /* Hover color for thumb */
+}

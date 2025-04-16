@@ -1,0 +1,21 @@
+.footer-link:hover {
+    color: #ff6f61 !important;
+  }
+  
+  .footer-social {
+    color: #333;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social:hover {
+    color: #ff6f61;
+  }
+
+  .footer-developer a{
+    color: #ff6f61;
+  }
+  
+  .text-orange a{
+    color: #ff6f61;
+  }

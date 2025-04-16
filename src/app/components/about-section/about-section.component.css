@@ -1,0 +1,33 @@
+/* About Section */
+.about-section {
+  background-color: #fe887d !important; /* Ensures the background color stays fixed */
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  color: #343a40; /* Dark text color for heading */
+}
+
+.about-section p {
+  font-size: 1.125rem;
+  color: #393d40; /* Lighter text color for description */
+  line-height: 1.6;
+}
+
+
+.about-section img {
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .about-section .col-md-6 {
+    text-align: center;
+  }
+
+  .about-section img {
+    margin-top: 20px;
+  }
+}

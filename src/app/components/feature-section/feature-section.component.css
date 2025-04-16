@@ -1,0 +1,64 @@
+/* Features Section */
+
+  
+  .features-section h2 {
+    font-size: 2.5rem;
+    color: #343a40; /* Dark color for heading */
+    font-weight: 600;
+  }
+  
+  .features-section .feature-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .features-section .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .features-section .feature-card i {
+    color: #ff6f61; /* Blue color for icons */
+  }
+  
+  .features-section .feature-card h4 {
+    font-size: 1.5rem;
+    color: #343a40;
+  }
+  
+  .features-section .feature-card p {
+    color: #6c757d; /* Lighter color for the description */
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .features-section .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .features-section .col-md-4 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .features-section .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .features-section h2 {
+      font-size: 2rem;
+    }
+  
+    .features-section .feature-card {
+      padding: 20px;
+    }
+  
+    .features-section .feature-card i {
+      font-size: 3rem;
+    }
+  }
+  
