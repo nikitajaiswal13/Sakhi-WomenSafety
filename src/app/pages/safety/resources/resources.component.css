@@ -1,0 +1,41 @@
+/* Support & Help Section */
+.support-help-section {
+    background-color: #fdefec;
+    padding: 50px 0;
+  }
+  
+  .support-help-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .support-help-section h3 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  .support-help-section ul,
+  .support-help-section ol {
+    padding-left: 20px;
+    color: #555;
+    font-size: 1.125rem;
+    line-height: 1.7;
+  }
+  
+  .support-help-section a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .support-help-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .faq p {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  

@@ -6,6 +6,8 @@ import { AdmissionsComponent } from './pages/admissions/admissions.component';
 import { JobsComponent } from './pages/jobs/jobs.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
+import { LegalRightsComponent } from './pages/safety/legal-rights/legal-rights.component';
+import { ResourcesComponent } from './pages/safety/resources/resources.component';
 
 const routes: Routes = [
   {path : '' , component : HomeComponent},
@@ -14,6 +16,8 @@ const routes: Routes = [
   {path : 'jobs' , component : JobsComponent},
   {path : 'contact' , component : ContactComponent},
   {path : 'about' , component : AboutComponent},
+  {path : 'safety/legal-rights' , component : LegalRightsComponent},
+  {path : 'safety/resources' , component : ResourcesComponent},
   {path : '**' , component : HomeComponent}
 ];
 

@@ -14,6 +14,8 @@ import { JobsComponent } from './pages/jobs/jobs.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { LegalRightsComponent } from './pages/safety/legal-rights/legal-rights.component';
+import { ResourcesComponent } from './pages/safety/resources/resources.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     AdmissionsComponent,
     JobsComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    LegalRightsComponent,
+    ResourcesComponent,
   ],
   imports: [
     BrowserModule,

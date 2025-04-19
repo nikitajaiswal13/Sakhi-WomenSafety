@@ -1,0 +1,53 @@
+/* Legal Rights Section */
+.legal-rights-section {
+    background-color: #fdefec;
+    padding: 50px 0;
+  }
+  
+  .legal-rights-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .legal-rights-section h3 {
+    font-size: 1.75rem;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  .legal-rights-section p {
+    font-size: 1.125rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .legal-rights-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .legal-rights-section ul li {
+    font-size: 1.125rem;
+    color: #555;
+  }
+  
+  .legal-rights-section .fw-bold {
+    font-weight: 700;
+  }
+  
+  @media (max-width: 768px) {
+    .legal-rights-section h2 {
+      font-size: 2rem;
+    }
+    
+    .legal-rights-section h3 {
+      font-size: 1.5rem;
+    }
+  
+    .legal-rights-section p, .legal-rights-section ul li {
+      font-size: 1rem;
+    }
+  }
+  
